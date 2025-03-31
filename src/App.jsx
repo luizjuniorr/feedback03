@@ -1,5 +1,6 @@
 import { useState } from "react"
 import iconStar from "./images/icon-star.svg"
+import illustrationThankYou from "./images/illustration-thank-you.svg"
 
 export function App(){
   const [notaAvaliacao, setNotaAvaliacao] = useState(0)
@@ -42,7 +43,9 @@ export function App(){
       </div>
       ) : (
         <div className="bg-gradient-dark mx-6 p-6 rounded-2xl text-white font-overpass">
-          <p>paragrafo</p>
+          <img src={illustrationThankYou} alt="" />
+          
+          <p></p>
         </div>
       )}
     </div>
